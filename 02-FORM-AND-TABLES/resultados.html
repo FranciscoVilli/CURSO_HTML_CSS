@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>reusltados</title>
+    </head>
+    <body>
+        <h1>Resultados</h1>
+        <div id="resultados"></div>
+            <a href="form.html">Volver al formulario</a>
+            <br>
+        
+        <script>
+            const obtenerResultados = document.getElementById("resultados")
+            new URLSearchParams(window.location.search).forEach((val,name)=>{
+                obtenerResultados.append(`${name}:${val}`)
+                obtenerResultados.append(document.createElement('br'))
+            })
+        </script>
+    </body>
+</html>
