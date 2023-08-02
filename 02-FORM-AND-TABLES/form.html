@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Formularios</title>
-    </head>
-    <body>
-        <form action="resultados.html" method="GET">
-            <div>
-                <label for="username">Nombre de usuario</label>
-                <input name= "username" id="username">
-            </div>
-            <div>
-                <label for="comentarios">Comentarios</label>
-                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <label for="password">Contraseña</label>
-                <input name="password"id="password">
-            </div>
-            <button>Enviar</button>
-        </form>
-    </body>
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="resultados.html" method="GET">
+        <h1>Bienvenidos</h1>
+        <div>
+            <label for="username">Nombre de usuario</label>
+
+            <input type="text" name="username" id="username" required>
+            <!-- obligatoriamente tenemos que llenar ese campo-->
+        </div>
+        <br>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" min="0" max="30" step="2"> <!-- minimo y maximo de los numeros, step da los saltos-->
+        </div>
+        <br>
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea> <!-- cols = largp, rows = ancho-->
+        </div>
+        <br>
+        <div>
+            <label for="correo">Correo electronico</label>
+            <input type="email" name="correo">
+        </div>
+        <br>
+        <div>
+            <label for="fecha">Fecha</label>
+            <input type="datetime-local" name="fecha">
+        </div>
+        <br>
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" required>
+            <!-- obligatoriamente tenemos que llenar ese campo-->
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button> <!-- se resetea todo con el tipo reset-->
+    </form>
+</body>
+
 </html>
