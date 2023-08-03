@@ -1,0 +1,73 @@
+h1 {
+    font-size:30px ; /*cambia el tama;o de la fuente*/
+    font-family: sans-serif; /*cambia el tipo de letra*/
+    font-weight: 500;  /*cambia el tono de negrilla*/
+    
+}
+h3 {
+    font: 400 20px sans-serif; /*Es lo mismo que lo de arriba*/
+}
+header,section,footer,aside, nav,article,hgroup {
+    display: block;
+    
+}
+body {
+    text-align: center;
+    
+}
+.agrupar {
+    width: 960px;
+    background-color: bisque;
+    margin: 15px auto;   /*15 pixeles en el eje de la y y auto en las x*/
+    padding: 30px;  /*20 pixeles del margen que hay entre el cuerpo y el .agrupar*/
+    border: 2px solid maroon;
+}
+header {
+    background-color: rgb(189, 90, 44);
+    padding: 15px;
+    
+}
+.menu {
+    background-color: rgb(238, 202, 189);
+    padding: 3px 15px;
+    text-align: left;
+    margin-top: 15px;
+    
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 15px Arial;
+    display: inline;
+}
+.seccion {
+    width: 600px;
+    border: 1px solid black;
+    margin-top: 15px;
+    float: left;
+}
+.aside {
+    width: 300px;
+    
+    float: right;
+    margin: 15px 0;
+}
+.texto{
+    float:right;
+    
+
+}
+.pie {
+    clear: both;
+    padding-top: 15px;
+}
+.cajatexto {
+    background-color: antiquewhite;
+}
+.aside blockquote{
+    border:1px solid black;
+    padding: 60px;
+    margin: 15px 0;
+    
+}
+

@@ -1,72 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi blog</title>
+    <link rel="stylesheet" href="estilos.css">
+
 </head>
+
 <body>
-    <header>     <!-- Especificamos que esta en la cabecera-->
-        <h1>Mi blog</h1>
-    </header>
-    <nav>  <!--parametros de navegacion-->
-        <ul>  <!--lista desordenada-->
-            <li>hola</li> <!--indice de la lista -->
-            <li>hola</li>
-            <li>hola</li>
-        </ul>
-    </nav>
-    <section>   <!--colocar contenido principal-->
-        <article>     <!--colocamos los articulos-->
-            <hgroup>
-                <h1>Asistentes Virtuales</h1>
-                <h3>subtitulo</h3>
-            </hgroup>
-            
-            <time datetime="02/08/2022">Publicado el 02/08/2022</time>  <!--sirve para poner las fechas-->
-            <p>
-                Sistemas como Siri, Alexa y Google Assistant permiten 
-                a los <small>hola como estas</small>usuarios interactuar con dispositivos a través del 
-                lenguaje natural <cite>esta es una cita</cite>y realizar tareas como hacer preguntas, 
-                configurar recordatorios, reproducir <span>este es un span </span>música y controlar dispositivos inteligentes.
-            </p>
-            <img src="imagenes/Cool wallpaper.jpg" alt="imagen" width="300px" height="200px">
-            <footer>
-                <p>Comentarios (0)</p>
-            </footer>
-        </article>
-        <article>
-            <hgroup>  <!--para que tenga gerarquia con el titulo-->
-                <h1>Vehiculos virtulaes</h1>
-                <h3>subtitulo</h3>
-            </hgroup>
-            <time datetime="02/08/2022">Publicado el 02/08/2022</time>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. <!--poniendo lorem se crea texto de prueba-->
-                Deleniti optio repudiandae ut consequuntur sapiente, blanditiis 
-                aspernatur sint tenetur adipisci porro illum, quos incidunt? 
-                Laborum alias cupiditate eligendi nisi accusamus corporis.
-            </p>
-            
-            <footer>
-                <p>Comentarios (10)</p>
-            </footer>
-           <!-- <a href="https://chat.openai.com/">Ir a chat GPT</a> sirve para dar un enlace a algun lado-->
+    <div class="agrupar">
+        <header class="cabecera"> <!-- Especificamos que esta en la cabecera-->
+            <h1>Mi blog</h1>
+        </header>
+        <nav class="menu"> <!--parametros de navegacion-->
+            <ul> <!--lista desordenada-->
+                <li>ABRIR</li> <!--indice de la lista -->
+                <li>CERRAR</li>
+                <li>BUSCAR</li>
+            </ul>
+        </nav>
+        <section class="seccion"> <!--colocar contenido principal-->
+            <article> <!--colocamos los articulos-->
+                <hgroup>
+                    <h1>Asistentes Virtuales</h1>
+                    <h3>subtitulo</h3>
+                </hgroup>
 
-        </article>
+                <time datetime="02/08/2022">Publicado el 02/08/2022</time> <!--sirve para poner las fechas-->
+                <p>
+                    Sistemas como Siri, Alexa y Google Assistant permiten
+                    a los <small>hola como estas</small>usuarios interactuar con dispositivos a través del
+                    lenguaje natural <cite>esta es una cita</cite>y realizar tareas como hacer preguntas,
+                    configurar recordatorios, reproducir <span>este es un span </span>música y controlar dispositivos
+                    inteligentes.
+                </p>
+                <img src="imagenes/Cool wallpaper.jpg" alt="imagen" width="300px" height="200px">
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
+            </article>
+            <article>
+                <hgroup> <!--para que tenga gerarquia con el titulo-->
+                    <h1>Vehiculos virtulaes</h1>
+                    <h3>subtitulo</h3>
+                </hgroup>
+                <time datetime="02/08/2022">Publicado el 02/08/2022</time>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    <!--poniendo lorem se crea texto de prueba-->
+                    Deleniti optio repudiandae ut consequuntur sapiente, blanditiis
+                    aspernatur sint tenetur adipisci porro illum, quos incidunt?
+                    Laborum alias cupiditate eligendi nisi accusamus corporis.
+                </p>
 
-    </section>
-    <aside>  <!--sirve para informacion adicional-->
-        <blockquote cite="https://www.youtube.com/watch?v=rbuYtrNUxg4&t=3795s"> <!-- sirve para citar y de donde se saca la cita-->
-            mensaje 1
-        </blockquote>
-        <blockquote>
-            mensaje 2
-        </blockquote>
-    </aside>
-    <footer>    <!--pie de pagina no solo sirve para la pagina en si, si no para secciones igual-->
-        derechos reservados 2010 - 2020
-    </footer>
-    
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+                <!-- <a href="https://chat.openai.com/">Ir a chat GPT</a> sirve para dar un enlace a algun lado-->
+                
+            </article>
+            
+
+        </section>
+        <aside class="aside"> <!--sirve para informacion adicional-->
+            <blockquote cite="https://www.youtube.com/watch?v=rbuYtrNUxg4&t=3795s">
+                <!-- sirve para citar y de donde se saca la cita-->
+                mensaje 1
+            </blockquote>
+            <blockquote>
+                mensaje 2
+            </blockquote>
+        </aside>
+        <aside class="texto">
+            <blockquote>
+                <h4>Escribe un mensaje</h4>
+                <textarea class="cajatexto" cols="30" rows="10"></textarea>
+            </blockquote>
+        </aside>
+        <footer class="pie"> <!--pie de pagina no solo sirve para la pagina en si, si no para secciones igual-->
+            derechos reservados 2010 - 2020
+        </footer>
+    </div>
+
 </body>
+
 </html>
