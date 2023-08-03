@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+.estilo1 {
+    font-family: 'Edu SA Beginner', cursive; /*Estilo importando*/
+    font-size: 50px;
+}
+.estilo2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200; /*peso de negrita*/
+}
+.estilo3 {
+    font-family: 'Handjet', cursive;   /*estilo referenciando*/
+}
