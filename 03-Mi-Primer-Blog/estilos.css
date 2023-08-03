@@ -1,11 +1,13 @@
 h1 {
-    font-size:30px ; /*cambia el tama;o de la fuente*/
+    font-size:35px ; /*cambia el tama;o de la fuente*/
     font-family: sans-serif; /*cambia el tipo de letra*/
     font-weight: 500;  /*cambia el tono de negrilla*/
     
 }
 h3 {
     font: 400 20px sans-serif; /*Es lo mismo que lo de arriba*/
+    text-align: left;
+    padding-left: 15px;
 }
 header,section,footer,aside, nav,article,hgroup {
     display: block;
@@ -25,6 +27,7 @@ body {
 header {
     background-color: rgb(189, 90, 44);
     padding: 15px;
+    color: aliceblue;
     
 }
 .menu {
@@ -36,9 +39,12 @@ header {
 }
 .menu li {
     list-style: none;
-    padding: 5px;
+    padding: 5px ;
     font: bold 15px Arial;
     display: inline;
+    color: rgb(83, 136, 138);
+    
+    
 }
 .seccion {
     width: 600px;
