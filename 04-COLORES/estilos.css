@@ -1,0 +1,17 @@
+div {
+    background-color: black;
+    border:2px groove red;
+
+}
+.col1 {
+    color: blue;
+}
+.col2 {
+    color: #faf33e;
+}
+.col3 {
+    color:rgb(100,0,200)
+}
+.col4 {         /*EL ultimo argumento es de intensidad*/
+    color: rgba(100, 300, 47, 0.2);
+}
