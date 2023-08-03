@@ -1,0 +1,20 @@
+.ancho{
+    background-color: brown;
+    width: 200px;
+}
+.alto {
+    background-color: rgb(52, 165, 42);
+    height: 300px;
+}
+.tarjeta {
+    background-color: black;
+    color: aliceblue;
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px;
+    width: 300px;
+    height: 300px;
+    border-top: none;  /*Para quitar el borde de arriba*/
+    padding: 10px 20px; /*Distancia entre el contenido y el borde*/
+    margin: 15px;  /*distancia entre el borde y la hoja de pagina*/
+}
