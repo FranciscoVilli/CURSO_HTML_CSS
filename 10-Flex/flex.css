@@ -1,0 +1,28 @@
+.flex {
+    background-color: brown;
+    
+    height: 600px;
+    display: flex;  /*lo posiciona de una manera ordenada,  se va reposicionando*/
+    justify-content: space-around; /*posiciona los elemntos dentro del flex */
+    /*flex-wrap: wrap; mientras se encoje la pantalla los elementos de van en bloque*/
+    align-items: center; /*posiciona al item*/
+    flex-direction: column; /*direccion del contenido*/
+}
+.contenido1 {
+    border: 1px solid goldenrod;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.contenido2 {
+    border: 1px solid goldenrod;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.contenido3 {
+    border: 1px solid goldenrod;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
