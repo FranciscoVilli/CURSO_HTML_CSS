@@ -1,0 +1,18 @@
+.div1, .div2 {
+    background-color: blueviolet;
+    /*tiene por defecto display block*/
+}
+.imagen {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: right;  /*Para ir moviendo la direccion del objeto*/
+    
+}
+span{
+    display: inline-block;
+    background-color: aquamarine;
+    /*tiene por defecto display inline*/
+    height: 200px;
+    
+}
