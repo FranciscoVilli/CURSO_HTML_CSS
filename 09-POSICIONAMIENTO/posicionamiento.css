@@ -1,0 +1,40 @@
+div {
+    border: 1px solid green;
+    margin: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
+.static { /*es estatico porque no se puede cambiar la posicion*/
+    position: static;
+}
+.relative {
+    position: relative;  /*se posiciona en relacion al posicionamiento original*/
+    left: 80px;
+    background-color: aqua;
+}
+.fixed {
+    position: fixed;         /*mantiene la posicion que le especifiquemos con referencia al tmaño pantalla (trabaj por su cuenta)*/
+    background-color: blue;
+    bottom: 0px;
+    left: 0px;
+    color: aliceblue;
+    z-index: 10;
+}
+.absolute {   /*mantiene la posicion con referencia a la pagina*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.relative.contenedor {
+    width: 500px;
+    height: 900px;
+    background-color: bisque;
+}
+.sticky {   /*aunque bajemos la pagina se queda arriba*/
+    position: sticky;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    top: 0px;
+    z-index: 2;   /*sirve para poner por encima de algo*/
+}
