@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: cadetblue;
+}
+.contenedor {
+    display: grid;
+    place-items: center;
+    
+}
+.semaforo {
+    width: 100px ;
+    height: 200px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(56, 54, 42);
+    padding: 10px;
+}
+.lucesCirculo {
+    
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+}
+.lucesCirculo::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border-right: 4px solid rgb(255,255 , 255);
+    top: 3px;
+}
+.palo {
+    width: 10px;
+    height: 200px;
+    background-color: black;
+    
+}
+.piso {
+    width: 150px;
+    height: 5px;
+    background-color: black;
+}
+.rojo {
+    background-color: darkred;
+}
+.amarillo {
+    background-color: rgb(248, 244, 6);
+}
+.verde {
+    background-color: rgb(28, 139, 0);
+}
