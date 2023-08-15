@@ -1,0 +1,34 @@
+.contenedor-hidden{
+    background-color: beige;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow:hidden  /*Todo lo que sobresalga se oculte*/
+}
+
+.contenedor-scroll{
+    background-color: beige;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    margin-top: 15px;
+    overflow:scroll  /*permite visualizar tod el contenido con una rueda de scroll*/
+}
+
+.contenedor-visible{
+    background-color: beige;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    margin-top: 15px;
+    overflow:visible;  /*Se muestra como si no se efectuara ningun overflow*/
+}
+
+.contenedor-auto{
+    background-color: beige;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;  /*Solo pone la barra de scroll donde es necesario*/
+}
