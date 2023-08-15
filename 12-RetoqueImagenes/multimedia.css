@@ -1,0 +1,21 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.img1 {
+    width: 200px;
+    height: 250px;
+    opacity: 0.4; /*la opacidad va de 0-1*/
+}
+.img1:hover{  /*Propiedad cuando se pasa por encima*/
+    opacity: 1;
+    cursor: pointer;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap; /*se adapte al tama;o de la pantalla*/
+    gap: 15px;  /*espacio entre imagenes*/
+}
+.principal {
+    width: 100vw;
+}
