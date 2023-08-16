@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 300px;
+            background-color: aquamarine;
+        }
+        .hover:hover { /*Se activa cuando el raton pasa por encima*/
+            background-color: blue;
+
+        }
+        .listado {
+            padding: 15px;
+            background-color: blueviolet;
+        }
+        .listado p:first-child{    /*afecta al unico elemento*/
+            color: burlywood;
+        }
+        a:link {     /*link no visitado*/
+            color: brown;
+        }
+        a:visited {
+            color: cornflowerblue;   /*link visitado*/
+        }
+        a:hover {
+            color: darkgreen;
+        }
+        a:active {   /*cuando se da click el color se cambia*/
+            color: hotpink;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perspiciatis distinctio deserunt obcaecati
+            sapiente consequatur iste quas. Fugiat
+            est placeat corporis quasi, maxime
+            nihil illo recusandae, quae qui, voluptate
+            ratione.</p>
+    </div>
+    <div class="listado">
+        <p>parrafo 1</p>
+        <p>parrafo 2</p>
+        <p>parrafo 3</p>
+        <p>parrafo 4</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://google.com" target="_blank">Enlace a google</a>
+        <a href="https://youtube.com" target="_blank">Enlace a google</a>
+        <a href="https://youtube.com" target="_blank">Enlace a google</a>
+    </div>
+
+</body>
+
+</html>
