@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+body {
+    background: #081b29;
+    color:#ededed;
+}
+
+.header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;   /*La propiedad CSS z-index se utiliza para controlar el orden de apilamiento de elementos posicionados en una página web. Indica qué elementos se superponen y cuál aparece en la parte superior en el caso de que haya solapamiento. El valor de z-index define la profundidad del elemento en el eje z (el eje de profundidad). */
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight:500;
+    margin-left: 35px;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: cornflowerblue;
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content {
+    
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: cornflowerblue;
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:cornflowerblue;
+    border:2px solid cornflowerblue ;
+    border-radius: 8px;
+    font-size: 19px;
+    color:#081b29 ;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box a:nth-child(2){
+    background-color: transparent;
+    color: cornflowerblue;
+}
+
+.btn-box a:hover{
+    background-color: transparent;
+    color: cornflowerblue;
+}
+
+.btn-box a:nth-child(2):hover{
+    background:cornflowerblue;
+    color:#081b29 ;
+}
