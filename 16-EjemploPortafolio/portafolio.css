@@ -53,6 +53,7 @@ body {
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.2;
 }
 .home-content h3{
     font-size: 32px;
@@ -63,6 +64,7 @@ body {
 .home-content p{
     font-size: 16px;
     margin: 20px 0 40px;
+
 
 }
 .home-content .btn-box{
@@ -101,4 +103,45 @@ body {
 .btn-box a:nth-child(2):hover{
     background:cornflowerblue;
     color:#081b29 ;
+}
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size:20px;
+    color:#00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+.home-sci a:hover {
+    color: #081b29;
+}
+.home-sci a:hover::before {
+    width: 100%;
+
 }
